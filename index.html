@@ -2,8 +2,8 @@
 <!--
   MANGA WRAPPED 2026
   Single-file page. Put these next to it (all optional):
-    assets/P1.png       cover image for the "Highest rated" scene
-    assets/P2.png       cover image for the "Hidden gem" scene
+    assets/P1.webp      cover image for the "Highest rated" scene
+    assets/P2.webp      cover image for the "Hidden gem" scene
     assets/ambient.mp3  ambient sound for the Ambient button
   Anything missing falls back to the generated cover / a soft synth pad.
   Rename to index.html to publish on GitHub Pages.
@@ -1441,7 +1441,7 @@
     const badges = [['Library Architect', D.total+' manga tracked'], ['The 2020 Wave', yr[2020]+' starts in one year'], ['Marathoner', lg.read+' chapters in one series'], ['Slow Burn', pl(s.days)+' days to finish one'], ['Backlog Keeper', D.plan+' queued'], ['Perfect Ten', D.hist[9]+' perfect scores']];
 
     // ---- Cover art: P1 and P2 are read from assets/, empty = generated cover ----
-    const COVERS = {"Koe no Katachi":"assets/P1.png", "Shuumatsu no Harem":"assets/P2.png", "Jeonjijeok Dokja Sijeom":"", "Office Nuna Iyagi":"", "Na Honjaman Level Up":"", "Amheukmyeongga Cheonjae Mangnaniga Doeeossda":""};
+    const COVERS = {"Koe no Katachi":"assets/P1.webp", "Shuumatsu no Harem":"assets/P2.webp", "Jeonjijeok Dokja Sijeom":"", "Office Nuna Iyagi":"", "Na Honjaman Level Up":"", "Amheukmyeongga Cheonjae Mangnaniga Doeeossda":""};
     // Paste an image URL after a title above to show real cover art. Empty = generated cover.
     const cv = m => {
       const h = hue(m.t), u = COVERS[m.t];
